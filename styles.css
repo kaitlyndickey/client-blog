@@ -1,0 +1,125 @@
+header {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 15px 0px 5px;
+}
+header h1 {
+    color: #8B93A6;
+}
+header h3 {
+    color: #8B93A6;
+    font-family: 'Karla', sans-serif;
+}
+nav {
+    background-color: #E3E7F1;
+    position: absolute;
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+}
+nav a {
+    float:left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+    nav a:hover {
+        color: #A6997B;
+    }
+    nav a:active {
+        color: #8B93A6;
+    }
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+}
+footer {
+    background-color: #E3E7F1;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+}
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+    footer a:hover {
+        color: #A6997B;
+    }
+    footer a:active {
+        color: #8B93A6;
+    }
+ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.search input[type=search]{
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+.search{
+    float: right;
+    margin: 7px;
+}
+.search button{
+    background-color: #A6997B;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+.sale-banner {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.category-home a {
+    text-decoration: none;
+    text-align: center;
+    color: #8B93A6;
+    font-family: 'Karla', sans-serif;
+}
+    .category-home a:hover {
+        color: #A6997B;
+    }
+.category-home h2 {
+    text-align: center;
+    color: #8B93A6;
+    font-family: 'Rubik', sans-serif;
+    margin: 15px 0px 15px 0px;
+}
+.col {
+    text-align: center;
+}
+.col h4 {
+    color: #8B93A6;
+    margin: 15px 0px 15px;
+}
+    .col h4:hover {
+        color: #A6997B;
+    }
+.footer-1 {
+    float: left;
+    display: inline;
+    width: 75%;
+}
+.footer-2 {
+    width: 20%;
+    float: right;
+    display: inline;
+    text-align: end;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
